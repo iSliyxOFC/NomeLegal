@@ -216,6 +216,53 @@ const buildData = {
             'builds/personal-projects/SunsetIsle/PathSS.jpeg',
             'builds/personal-projects/SunsetIsle/AerialSS.jpeg'
         ]
+    },
+    'mrbeast': {
+        title: 'MrBeast Competition',
+        description: 'As a part of Mr. Beast\'s 2 week long, 1500x1500, prestigious Countries Build Competition, lakeshore5 joined an all star lineup to compete as, and against, the other absolute top global builders in the world. The Scope of the project was to capture the essence of the United States in a single build. lakeshore5 contributed by doing 100% of the terraforming (in less than 2 days), several city blocks, the Seattle Space needle, the composition for the 6 surrounding Islands (The Northwest, the Midwest, Hollywood, Hawaii, The East Coast, and The South), The Alamo and surrounding structures, Uncle Sam, the Washington Memorial and other monumental east coast architecture, atmosphereic details, pasting in all the lovely trees and organic elements (designed by the esteemed InfinityBuilds), and a large amount of the touch up, integration, and general thematic elements. lakeshore5 was thrilled to work with some of his closest colleagues in InfinityBuilds and creeper5777 on a project of just magnitude, and was happy to be counted among the best builders alive.',
+        images: [
+            'builds/personal-projects/MrBeast/BeastFront.png',
+            'builds/personal-projects/MrBeast/Beast3.png',
+            'builds/personal-projects/MrBeast/NW1.png',
+            'builds/personal-projects/MrBeast/NW2.png',
+            'builds/personal-projects/MrBeast/Beast4.png',
+            'builds/personal-projects/MrBeast/NW3.png',
+            'builds/personal-projects/MrBeast/NW4.png',
+            'builds/personal-projects/MrBeast/Beast5.png',
+            'builds/personal-projects/MrBeast/MW1.png',
+            'builds/personal-projects/MrBeast/MW2.png',
+            'builds/personal-projects/MrBeast/Beast6.png',
+            'builds/personal-projects/MrBeast/MW3.png',
+            'builds/personal-projects/MrBeast/MW4.png',
+            'builds/personal-projects/MrBeast/Beast7.png',
+            'builds/personal-projects/MrBeast/EC1.png',
+            'builds/personal-projects/MrBeast/EC2.png',
+            'builds/personal-projects/MrBeast/Beast8.png',
+            'builds/personal-projects/MrBeast/EC3.png',
+            'builds/personal-projects/MrBeast/Cali1.png',
+            'builds/personal-projects/MrBeast/Cali2.png',
+            'builds/personal-projects/MrBeast/Beast9.png',
+            'builds/personal-projects/MrBeast/Cali3.png',
+            'builds/personal-projects/MrBeast/Cali4.png',
+            'builds/personal-projects/MrBeast/Beast10.png',
+            'builds/personal-projects/MrBeast/Cali5.png',
+            'builds/personal-projects/MrBeast/Cali6.png',
+            'builds/personal-projects/MrBeast/Beast11.png',
+            'builds/personal-projects/MrBeast/South1.png',
+            'builds/personal-projects/MrBeast/South2.png',
+            'builds/personal-projects/MrBeast/Beast12.png',
+            'builds/personal-projects/MrBeast/South3.png',
+            'builds/personal-projects/MrBeast/South4.png',
+            'builds/personal-projects/MrBeast/Beast13.png',
+            'builds/personal-projects/MrBeast/Hawaii1.png',
+            'builds/personal-projects/MrBeast/Hawaii2.png',
+            'builds/personal-projects/MrBeast/Islands1.png',
+            'builds/personal-projects/MrBeast/Islands2.png',
+            'builds/personal-projects/MrBeast/Animal1.png',
+            'builds/personal-projects/MrBeast/Animal2.png',
+            'builds/personal-projects/MrBeast/Animal3.png',
+            'builds/personal-projects/MrBeast/BeastFinal.png'
+        ]
     }
 };
 
