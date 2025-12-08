@@ -188,7 +188,15 @@ const buildData = {
         title: 'SkuxxVerse',
         description: 'An expansive virtual world showcasing diverse environments and immersive gameplay experiences. This comprehensive project demonstrates advanced world-building techniques and creative design solutions that push the boundaries of what\'s possible in Minecraft. The build features multiple biomes, interactive elements, and carefully crafted landscapes that create a truly engaging virtual universe.\n\nNFT Worlds commission for XenosBuilds with creeper5777 and Kimbert.',
         images: [
-            'builds/xenos-builds/SkuxxVerse/SkuxxVerse.JPG'
+            'builds/xenos-builds/SkuxxVerse/SkuxxVerse.JPG',
+            'builds/xenos-builds/SkuxxVerse/SkuxxverseAerial.webp',
+            'builds/xenos-builds/SkuxxVerse/Screenshot1.png',
+            'builds/xenos-builds/SkuxxVerse/Screenshot2.png',
+            'builds/xenos-builds/SkuxxVerse/Screenshot3.png',
+            'builds/xenos-builds/SkuxxVerse/Screenshot4.png',
+            'builds/xenos-builds/SkuxxVerse/Screenshot5.png',
+            'builds/xenos-builds/SkuxxVerse/Screenshot6.png',
+            'builds/xenos-builds/SkuxxVerse/Screenshot7.png'
         ]
     },
     'skull-castle': {
