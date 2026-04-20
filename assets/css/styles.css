@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/more-sugar');
+
 /* CSS Reset and Base Styles */
 * {
     margin: 0;
@@ -6,8 +8,8 @@
 }
 
 :root {
-    --gold-color: #D5A12F;
-    --gold-hover: #D5A12F;
+    --gold-color: #f6e9d4;
+    --gold-hover: #fffcf8;
     --dark-overlay: rgba(0, 0, 0, 0.7);
     --black: #000000;
     --white: #ffffff;
@@ -22,7 +24,7 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: var(--gold-color);
-    background: var(--black);
+    background: #ffdba2;
     overflow-x: hidden;
 }
 
@@ -54,7 +56,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background: #f6e9d4;
     backdrop-filter: blur(10px);
     z-index: 1000;
     transition: var(--transition);
@@ -70,10 +72,9 @@ img {
 }
 
 .nav-logo a {
-    font-family: 'Cinzel', serif;
     font-size: 1.8rem;
     font-weight: 600;
-    color: var(--gold-color);
+    color: #000000;
     text-decoration: none;
     transition: var(--transition);
     display: flex;
@@ -82,20 +83,21 @@ img {
 }
 
 .nav-logo a:hover {
-    color: var(--gold-hover);
-    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    color: #1e0131;
+    text-shadow: 0 0 10px rgba(153, 0, 255, 0.4);
 }
 
 .nav-logo-img {
     height: 32px;
     width: 32px;
+    border-radius: 50%;
     object-fit: contain;
     transition: var(--transition);
 }
 
 .nav-logo a:hover .nav-logo-img {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.4));
+    filter: drop-shadow(0 0 8px rgba(153, 0, 255, 0.4));
 }
 
 .nav-menu {
@@ -106,19 +108,20 @@ img {
 
 .nav-link {
     text-decoration: none;
-    color: var(--white);
+    color: var(--black);
     font-weight: 500;
     font-size: 1.1rem;
     padding: 0.5rem 1rem;
     border-radius: 8px;
     transition: var(--transition);
     position: relative;
+    cursor: pointer;
 }
 
 .nav-link:hover,
 .nav-link.active {
-    color: var(--gold-color);
-    background: rgba(255, 215, 0, 0.1);
+    color: #000000;
+    background: #f5d7a6;
 }
 
 .nav-toggle {
@@ -153,7 +156,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../../builds/athion-builds/Aurelios_the_Lost_City/AtlantisCity.png');
+    background-image: url('../../builds/athion-builds/Aurelios_the_Lost_City/SliyxBuildToBanner.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,11 +170,11 @@ img {
     height: 100vh; /* Only cover hero section */
     background: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.3) 30%,
-        rgba(0, 0, 0, 0.6) 60%,
-        rgba(0, 0, 0, 0.9) 85%,
-        rgba(0, 0, 0, 1) 100%
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0) 30%,
+        rgba(0, 0, 0, 0) 60%,
+        #ebebeb4d 85%,
+        #ebebeb 100%
     );
     z-index: 0;
 }
@@ -192,14 +195,11 @@ img {
 }
 
 .portfolio-title {
-    font-family: 'Cinzel', serif;
-    font-size: clamp(4rem, 12vw, 10rem);
-    font-weight: 700;
-    color: var(--gold-color);
-    text-shadow: 
-        3px 3px 6px rgba(0, 0, 0, 0.8),
-        0 0 30px rgba(255, 215, 0, 0.3);
-    letter-spacing: 0.1em;
+    font-family: 'More Sugar', sans-serif;
+    font-size: clamp(4rem, 12vw, 15rem);
+    font-weight: bold;
+    color:#f6e9d4;
+    text-shadow: 8px -3px 2px #f5d7a6;
     animation: glow 3s ease-in-out infinite alternate;
 }
 
@@ -225,9 +225,9 @@ img {
     z-index: 1;
     background: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.8) 0%,
-        rgba(0, 0, 0, 0.95) 50%,
-        rgba(0, 0, 0, 1) 100%
+        #ebebeb 0%,
+        #f8f1e6 50%,
+        #f6e9d4 100%
     );
 }
 
@@ -356,7 +356,7 @@ img {
     transform: scale(1.02);
     border-color: var(--gold-color);
     box-shadow: 
-        0 0 30px rgba(255, 215, 0, 0.4),
+        0 0 20px #f6e9d4,
         0 15px 40px rgba(0, 0, 0, 0.6);
 }
 
@@ -1401,7 +1401,7 @@ img {
 
 /* Footer Styles */
 .footer {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.95), rgba(20, 20, 20, 0.95));
+    background: linear-gradient(135deg, #664d8a, #664d8a);
     border-top: 2px solid rgba(255, 215, 0, 0.3);
     padding: 60px 0 30px;
     margin-top: 80px;
@@ -1416,7 +1416,6 @@ img {
 }
 
 .footer-section h3 {
-    font-family: 'Cinzel', serif;
     font-size: 2rem;
     color: var(--gold-color);
     margin-bottom: 15px;
@@ -1424,7 +1423,6 @@ img {
 }
 
 .footer-section h4 {
-    font-family: 'Cinzel', serif;
     font-size: 1.3rem;
     color: var(--gold-color);
     margin-bottom: 20px;

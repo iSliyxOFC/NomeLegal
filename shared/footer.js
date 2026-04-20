@@ -14,29 +14,26 @@ function loadFooter() {
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>lakeshore5</h3>
-                    <p>Professional Minecraft Builder</p>
-                    <p>Building digital worlds since 2014</p>
+                    <h3>SliyxOFC</h3>
+                    <p>Minecraft Builder</p>
+                    <p>Construindo pra atrair loiras</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Quick Links</h4>
+                    <h4>Links radicais</h4>
                     <ul>
-                        <li><a href="./">Portfolio</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html">Portfólio</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Connect</h4>
+                    <h4>REDES</h4>
                     <div class="connect-links">
-                        <p><span class="connect-label">Website:</span> <a href="https://lakeshore5.com" class="connect-link">lakeshore5.com</a></p>
-                        <p><span class="connect-label">YouTube:</span> <a href="https://www.youtube.com/@lakeshore5" target="_blank" class="connect-link social-link">@lakeshore5</a></p>
-                        <p><span class="connect-label">Twitch:</span> <a href="https://www.twitch.tv/lakeshore5" target="_blank" class="connect-link social-link">lakeshore5</a></p>
+                        <p><span class="connect-label">YouTube:</span> <a href="https://www.youtube.com/@SliyxOFC" target="_blank" class="connect-link social-link">@SliyxOFC</a></p>
+                        <p><span class="connect-label">Instagram:</span> <a href="https://www.instagram.com/samuelb.xd/" target="_blank" class="connect-link social-link">samuelb.xd</a></p>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 lakeshore5. All rights reserved.</p>
+                <p>&copy; 2026 Direitos reservados apenas para as loiras e o Sliyx...<br> Talvez o Koski (Vou pensar)</p>
             </div>
         </div>
     </footer>`;
